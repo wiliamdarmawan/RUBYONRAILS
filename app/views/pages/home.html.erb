@@ -1,4 +1,17 @@
-<h1>This is the home page</h1>
+<main id ="page-content" class="flex-shrink-0">
+    <div class = "container" id="home-container">
+        <div class="p-5 bg-dark text-white text-center jumbotron rounded">
+            <h1 class="display-4">Alpha Blog</h1>
+            <p class="lead">Sample text</p>
+            <hr class="my-4">
+            <p>Another text</p>
+            <a class ="btn btn-success btn-lg" href="#" role="button">Sign Up!</a>
+        </div>
+    </div>
+</main>
 
-<%= link_to 'Articles listing', articles_path %> | 
-<%= link_to 'About page', about_path %>
+<footer id="sticky-footer" class="footer mt-auto py-3 bg-dark text-white text-center">
+<div class="container">
+    <span>Copyright &copy; <%= link_to "Wiliam Darmawan", "https://github.com/wiliamdarmawan", class: "text-white" %> </span>
+</div>
+</footer>
